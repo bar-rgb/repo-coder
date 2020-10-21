@@ -1,0 +1,217 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%;
+} 
+
+body, html {
+    height: 100%;
+    background-color: black;
+}
+
+ul li, a, h1, h2, h3 {
+    color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    list-style: none;
+    text-decoration: none;
+}
+
+/*borrar*/
+
+#nav-header {
+    display: flex;
+    /*los elementos tienen igual separacion entre ellxs*/
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0 20px;
+    position: fixed;
+    top: 10px;
+    
+}
+
+#back-index {
+    background-image: url("fondo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /**/
+    height: 100%;
+    position: relative;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    overflow: hidden;
+} 
+
+.nav-links li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.nav-links a {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+/*logos tamaño*/
+.nav-links img {
+    height: 20px;
+}
+
+#logo li{
+    height: 50px;
+}
+
+/*nuevo disco menu*/
+#nuevo-disco {
+    display: flex;
+    justify-content: left;
+    position: absolute;
+    top: 50%;
+    flex-flow: column;
+    align-items: baseline;
+    padding-left: 10%;
+}
+
+.menu-nd li {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 10px;
+    padding: 5px;
+}
+
+.menu-nd .menu {
+    border: 2px solid #ffffff;
+    padding: 8px 5px 4px 5px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/*página música*/
+.imagenes-disco {
+   width: 100%;
+   position: relative;
+   overflow: hidden;
+}
+
+.tapa-disco img {
+    float: left;
+    width: 40%;
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+    left: 5%;
+ }
+
+ .tapa-disco img:hover {
+    opacity: 0.6;
+ }
+
+/*fogontrack*/
+.cointainer-disco {
+    width: 100%;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.musica-left img {
+    height: 10px;
+}
+
+.musica-left {
+    display: inline-block;
+    left: 0;
+}
+
+.musica-right {
+    right: 0;
+}
+
+.escucha {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.tracks {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+
+/*media */
+
+/*cointainer gral */
+.menu-videos {
+    height: 100%;
+}
+
+.container-fogon {
+    height: 100%;
+}
+
+.titulo-fogon {
+    text-transform: uppercase;
+    font-size: 4rem;
+}
+
+.ver-video {
+    text-transform: uppercase;
+    font-size: 4rem;
+    border: 2px solid  #ffffff;
+}
+
+/*footer*/
+#nav-footer {
+    display: flex;
+    /*los elementos tienen igual separacion entre ellxs*/
+    justify-content: space-around; 
+    align-items: center;
+    padding: 0 10px;
+    background-color: rgb(27, 27, 27);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer h1,h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 0 20px;
+}
+
+footer h1 {
+    text-transform: uppercase;
+    padding: 0 20px;
+}
+
+.newsletter li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+/*logo*/
+.logo-footer img {
+    height: 50px;
+    padding: 0 10px;
+}
+/*redes tamaño*/
+.newsletter img {
+    height: 20px;
+    padding: 0 10px;
+}
+/*-------------------------------------------------*/
+/*
+    font-family: 'IM Fell DW Pica', serif; regular 400
+
+    font-family: 'Josefin Sans', sans-serif; regular 400 / regular italic 400 / bold 700
+*/
+
